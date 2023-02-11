@@ -21,6 +21,6 @@ Hi!  My name is Brendan and I live in the Pacific Northwest (CN87) and like to p
 
 ### Contact Me
 
-You can email me through the [ARRL E-mail Forwarding)[http://www.arrl.org/e-mail-forwarding] service via my callsign `@arrl.net`.
+You can email me through the [ARRL E-mail Forwarding](http://www.arrl.org/e-mail-forwarding) service via my callsign `@arrl.net`.
 
 [I'm good on QRZ!](https://www.qrz.com/db/n0bml)

@@ -41,18 +41,10 @@
     <div class="wrapper-footer">
       <div class="container">
         <footer class="footer">
-          {% include svg-icons.html %}
+          <p>Copyright &copy; 2023 by Brendan &ldquo;N0BML&rdquo; Leber</p>
         </footer>
-        <li class="p-name">
-          {%- if site.author -%}
-          &copy; {{ site.time | date: '%Y' }}  {{ site.author | escape }}
-          {%- else -%}
-          &copy; {{ site.time | date: '%Y' }}  {{ site.title | escape }}
-          {%- endif -%}
-        </li>
       </div>
     </div>
-
     {% include analytics.html %}
   </body>
 </html>
