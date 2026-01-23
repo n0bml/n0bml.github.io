@@ -18,7 +18,7 @@ avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/je
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
-  email: n0bml@arrl.net
+  email: n0bml@brendanleber.com
   facebook:
   flickr:
   github: n0bml
@@ -75,6 +75,7 @@ kramdown:
 # Set the Sass partials directory, as we're using @imports
 sass:
   style: :expanded # You might prefer to minify using :compressed
+  quiet-deps: true
 
 # Use the following plug-ins
 gems:
