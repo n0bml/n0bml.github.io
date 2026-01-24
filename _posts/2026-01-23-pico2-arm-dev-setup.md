@@ -2,7 +2,7 @@
 layout: post
 title: Raspberry Pi Pico 2 ARM Development Environment Setup
 date: 2026-01-23
-tags: pico2
+tags: pico2 arm
 ---
 
 I've always been interested in low level embedded development.  When I'm programming the closer to the metal I can get the more I enjoy the project.  I was digging through my [junk box](https://en.wikipedia.org/wiki/Junk_box) for some resistors and found a few Pico [1](https://www.raspberrypi.com/products/raspberry-pi-pico/)s and [2](https://www.raspberrypi.com/products/raspberry-pi-pico-2/)s from [Raspberry Pi](https://www.raspberrypi.com/) gathering dust.  What else could I do but dig them out and write some code to run on them.
@@ -13,7 +13,7 @@ The [Pico series documentation](https://www.raspberrypi.com/documentation/microc
 
 # Setup the Development Environment.
 
-The easiest way to setup the Pico SDK, and associated tools is to download and run[^1] the [pico_sdk.sh](https://github.com/raspberrypi/pico-setup/blob/master/pico_setup.sh) script from the Raspberry Pi [pico-setup](https://github.com/raspberrypi/pico-setup) GitHub project.  This script will install the GCC ARM compiler, [SDK](https://github.com/raspberrypi/pico-sdk), [examples](https://github.com/raspberrypi/pico-examples), [extras](https://github.com/raspberrypi/pico-extras), [playground](https://github.com/raspberrypi/pico-playground), including the [picotool](https://github.com/raspberrypi/picotool), and [debugprobe](https://github.com/raspberrypi/debugprobe) utilities.  The setup script works [Debian](https://www.debian.org/) based distributions.  If you are running a different flavor of Linux you can still use the `pico_sdk.sh` script but you will have to run the appropriate commands manually.  This is an exercise left to the reader.
+The easiest way to setup the Pico SDK, and associated tools is to download and run[^1] the [pico_sdk.sh](https://github.com/raspberrypi/pico-setup/blob/master/pico_setup.sh) script from the Raspberry Pi [pico-setup](https://github.com/raspberrypi/pico-setup) GitHub project.  This script will install the GCC ARM compiler, [SDK](https://github.com/raspberrypi/pico-sdk), [examples](https://github.com/raspberrypi/pico-examples), [extras](https://github.com/raspberrypi/pico-extras), [playground](https://github.com/raspberrypi/pico-playground), including the [picotool](https://github.com/raspberrypi/picotool), and [debugprobe](https://github.com/raspberrypi/debugprobe) utilities.  The setup script works on [Debian](https://www.debian.org/) based distributions.  If you are running a different flavor of Linux you can still use the `pico_sdk.sh` script but you will have to run the appropriate commands manually.  This is an exercise left to the reader.
 
 # Testing the Compiler.
 
@@ -50,7 +50,7 @@ int multiply(int n, int a) {
 
 ## Compile and Generate ARM Assembly.
 
-Using this `Makefile` we can compile the sample confirm the ARM compiler is working.  I find using [GNU Make](https://www.gnu.org/software/make/) easier than typing in all the commands by hand and less error prone.
+Using this `Makefile` we can compile the sample to confirm the ARM compiler is working.  I find using [GNU Make](https://www.gnu.org/software/make/) easier than typing in all the commands by hand and less error prone.
 
 ```
 CC=arm-none-eabi-gcc
@@ -140,6 +140,10 @@ Future posts in this series will show:
 # Pico 2 ARM and RISC-V Development Series Links.
 
 1. Raspberry Pi Pico 2 ARM Development Environment Setup (this post)
+1. Raspberry Pi Pico 2 RISC-V Development Environment Setup.  (TBD)
+1. Raspberry Pi Pico 2 Basic CMake Project.  (TBD)
+1. Raspberry Pi Pico 2 Extend Project for Pico 1 and Pico 2.  (TBD)
+1. Raspberry Pi Pico 2 Universal UF2 Project.  (TBD)
 
 # Footnotes.
 
