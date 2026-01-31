@@ -139,8 +139,8 @@ Future posts in this series will show:
 
 # Pico 2 ARM and RISC-V Development Series Links.
 
-1. Raspberry Pi Pico 2 ARM Development Environment Setup (this post)
-1. Raspberry Pi Pico 2 RISC-V Development Environment Setup.  (TBD)
+1. Raspberry Pi Pico 2 ARM Development Environment Setup.  (this post)
+1. [Raspberry Pi Pico 2 RISC-V Development Environment Setup](https://n0bml.github.io/pico2-riscv-dev-setup/).
 1. Raspberry Pi Pico 2 Basic CMake Project.  (TBD)
 1. Raspberry Pi Pico 2 Extend Project for Pico 1 and Pico 2.  (TBD)
 1. Raspberry Pi Pico 2 Universal UF2 Project.  (TBD)
