@@ -10,16 +10,24 @@ Hi!  My name is Brendan and I live in the Pacific Northwest (CN87) and like to p
 - [Slow-Scan Television (SSTV)](http://www.arrl.org/sstv-slow-scan-television)
 - [Amateur Radio Direction Finding (ARDF)](http://www.arrl.org/amateur-radio-direction-finding), also known as Fox Hunting.
 
-### Current Station
+# Current Station
 
-#### Radios
+## Radios
 
 - [Yaesu FT-8800R](https://www.yaesu.com/indexVS.cfm?cmd=DisplayProducts&ProdCatID=106&encProdID=FD01F8F398F2B94A9C9F4299F3D18732)
 - [Yaesu FT-690R II](https://www.rigpix.com/yaesu/ft690rii.htm)
 - [Yaesu FT-817](https://www.yaesu.com/indexVS.cfm?cmd=DisplayProducts&ProdCatID=102&encProdID=06014CD0AFA0702B25B12AB4DC9C0D27)
 - [RTL-SDR (RT2832U)](https://www.rtl-sdr.com)
 
-### Contact Me
+# Attributions
+
+- Icons by [Font Awesome](https://fontawesome.com/).
+
+# Copyright
+
+Except where otherwise noted, content on this site is licensed under a [Creative Commons Attribution 4.0 International license](https://creativecommons.org/licenses/by/4.0/).
+
+# Contact Me
 
 You can email me at [n0bml@brendanleber.com](mailto:n0bml@brendanleber.com).
 
